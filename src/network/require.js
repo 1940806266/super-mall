@@ -6,7 +6,7 @@ export function require(config) {
   })
   instance.interceptors.request.use(config => {
     return config
-    console.log(config)
+
   },err => {
     console.log(err)
   })
